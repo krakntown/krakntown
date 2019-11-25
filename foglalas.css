@@ -1,0 +1,60 @@
+html {font-family: Helvetica Neue,Helvetica,Arial,sans-serif; color: #5F0038 !important;}
+
+.ui-datepicker-calendar td:nth-child(1), .ui-datepicker-calendar td:nth-child(7) {pointer-events: none;}
+.ui-datepicker-calendar td:nth-child(1) a, .ui-datepicker-calendar td:nth-child(7) a {color: #dcdcdc;}
+
+.container {
+    width: 100%; margin: 0;
+    max-width: 100%;
+}
+
+input.time:invalid {
+  border: 2px dashed red;
+}
+
+input.time:valid {
+  border: 0px solid black;
+}
+
+input:not([type]):focus:not([readonly]),
+input[type=text]:focus:not([readonly]),
+input[type=password]:focus:not([readonly]),
+input[type=email]:focus:not([readonly]),
+input[type=url]:focus:not([readonly]),
+input[type=time]:focus:not([readonly]),
+input[type=date]:focus:not([readonly]),
+input[type=datetime-local]:focus:not([readonly]),
+input[type=tel]:focus:not([readonly]),
+input[type=number]:focus:not([readonly]),
+input[type=search]:focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #5F0038;
+  box-shadow: 0 1px 0 0 #5F0038;
+}
+
+input:not([type]):focus:not([readonly]) + label,
+input[type=text]:focus:not([readonly]) + label,
+input[type=password]:focus:not([readonly]) + label,
+input[type=email]:focus:not([readonly]) + label,
+input[type=url]:focus:not([readonly]) + label,
+input[type=time]:focus:not([readonly]) + label,
+input[type=date]:focus:not([readonly]) + label,
+input[type=datetime-local]:focus:not([readonly]) + label,
+input[type=tel]:focus:not([readonly]) + label,
+input[type=number]:focus:not([readonly]) + label,
+input[type=search]:focus:not([readonly]) + label,
+textarea.materialize-textarea:focus:not([readonly]) + label {
+  color: #5F0038;
+}
+
+.btn, .btn:hover, .btn-large:hover {
+    background-color: #5F0038;
+}
+
+.dropdown-content li > a, .dropdown-content li > span {
+    color: #5F0038;
+}
+
+.card {
+    margin: 0rem 0 0rem 0;
+}
